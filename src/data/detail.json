@@ -1,0 +1,311 @@
+[
+  {
+    "id": 1,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.6286387.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.63458975.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.64947838.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.62262557.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597138299.65018218.jpg"
+    ],
+    "title": "Redmi K30 至尊纪念版",
+    "font": "「128GB版本10月13号上午10点开售，购机抽奖赢70英寸电视」",
+    "desc": "120Hz弹出全面屏 / 天玑1000+旗舰处理器 / 索尼6400万四摄 / 立体声双扬声器 / 4500mAh+33W闪充 /  双模5G / 多功能NFC / 线性震动马达  / 红外遥控",
+    "price": 2199,
+    "color": ["极夜黑", "月幕白", "薄荷绿"],
+    "service": [
+      {
+        "price": 2199,
+        "neicun": "8GB+128GB"
+      },
+      {
+        "price": 1999,
+        "neicun": "6GB+128GB"
+      },
+      {
+        "price": 2499,
+        "neicun": "8GB+512GB"
+      }
+    ],
+    "list_tit": "Redmi K30 至尊纪念版",
+    "list_neicun": "8GB+128GB",
+    "list_color": "极夜黑",
+    "list_pri": 2199,
+    "allcount": 2199
+  },
+  {
+    "id": 2,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400910.45713014.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400910.46012177.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400910.44771407.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400910.45288015.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1595400910.45982505.jpg"
+    ],
+    "title": "Redmi 9A",
+    "font": "「6GB+128GB热卖中！买赠定制电话卡；限量赠十周年帆布包；+1元得50G云空间月卡；更享延保碎屏保5折」」",
+    "desc": "5000mAh长循环大电量 / 6.53\"超大护眼屏幕 / G25八核处理器 / 大音量扬声器 / 1300万 AI相机 / 人脸解锁  / 最高支持512GB存储扩展",
+    "price": 999,
+    "color": ["晴空蓝", "砂石黑", "湖光绿"],
+    "service": [
+      {
+        "price": 599,
+        "neicun": "4GB+64GB"
+      },
+      {
+        "price": 599,
+        "neicun": "4GB+128GB"
+      },
+      {
+        "price": 99,
+        "neicun": "6GB+128GB"
+      }
+    ],
+    "list_tit": "Redmi 9A",
+    "list_neicun": "4GB+64GB",
+    "list_color": "晴空蓝",
+    "list_pri": 599,
+    "allcount": 599
+  },
+  {
+    "id": 3,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1592817586.03663677.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1592817586.03891296.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1592817586.03417574.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1592817586.0391459.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1592817586.02758535.jpg"
+    ],
+    "title": "Redmi 9",
+    "font": "「全版本赠价值798元双人定制体检卡，+1元得50G云空间月卡，购机抽奖赢70英寸电视，更享延保碎屏保5折」",
+    "desc": "5020mAh超长续航+18W快充 / G80高性能处理器 / 128GB大内存 / 全场景 AI 四摄 / 1080P 全高清大屏 / 6.53\"水滴大屏 / 大功率扬声器 / 指纹识别+人脸解锁  / 红外遥控",
+    "price": 799,
+    "color": ["藕荷粉", "霓虹蓝", "霓虹蓝", "碳素黑"],
+    "service": [
+      {
+        "price": 799,
+        "neicun": "4GB+64GB"
+      },
+      {
+        "price": 999,
+        "neicun": "4GB+128GB"
+      },
+      {
+        "price": 1199,
+        "neicun": "6GB+128GB"
+      }
+    ],
+    "list_tit": "Redmi 9",
+    "list_neicun": "4GB+64GB",
+    "list_color": "藕荷粉",
+    "list_pri": 799,
+    "allcount": 799
+  },
+  {
+    "id": 4,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597890340.52713111.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597890340.54736634.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597890340.53681675.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597890340.51788462.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1597890340.53087798.jpg"
+    ],
+    "title": "Redmi 10X 4G",
+    "font": "「碎屏保、延保5折，+1元得50GB云空间月卡，享云空间200G年卡半价，购机抽奖赢70英寸电视」",
+    "desc": "5020mAh超长续航+18W快充+最高9W反向充电 /128GB大内存 / 4800万超清四摄 /Helio G85游戏芯 /6.53\"小孔全面屏 /指纹识别+人脸解锁  /红外遥控",
+    "price": 999,
+    "color": ["天际蓝", "明月灰", "松晨绿", "冰雾白"],
+    "service": [
+      {
+        "price": 999,
+        "neicun": "4GB+128GB"
+      },
+      {
+        "price": 1199,
+        "neicun": "6GB+128GB"
+      }
+    ],
+    "list_tit": "Redmi 10X 4G",
+    "list_neicun": "4GB+128GB",
+    "list_color": "天际蓝",
+    "list_pri": 999,
+    "allcount": 999
+  },
+  {
+    "id": 5,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585031954.49861462.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585031954.54576337.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585031954.50557099.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585031954.49469551.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1585031954.50549009.jpg"
+    ],
+    "title": " Redmi K30 Pro",
+    "font": "「8GB+256GB到手价2999元」",
+    "desc": "双模5G / 高通骁龙865 / 弹出式超光感全面屏 /索尼 6400万高清四摄 / 8K视频拍摄 / 超大面积VC立体散热 / 4700mAh+33W疾速闪充 / 多功能NFC / 红外遥控",
+    "price": 2999,
+    "oldprice": "3000元",
+    "color": ["太空灰", "天际蓝", "星环紫"],
+    "service": [
+      {
+        "price": 2999,
+        "neicun": "8GB+256GB"
+      }
+    ],
+    "list_tit": "Redmi K30 Pro",
+    "list_neicun": "8GB+256GB",
+    "list_color": "太空灰",
+    "list_pri": 2999,
+    "allcount": 2999
+  },
+  {
+    "id": 6,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945550.36949718.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945550.37994682.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945550.37829609.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945550.36678162.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1584945550.37848131.jpg"
+    ],
+    "title": "Redmi K30 Pro 变焦版",
+    "font": "「8GB+256GB到手价仅3399元，赠价值129元双动圈耳机」",
+    "desc": "双模5G / 高通骁龙865 / 弹出式超光感全面屏 / 索尼6400万双光学防抖四摄 / 8K视频拍摄 / 30倍变焦 / 超大面积VC立体散热 / 4700mAh+33W疾速闪充 / 多功能NFC / 红外遥控",
+    "price": 3399,
+    "oldprice": "3900元",
+    "color": ["月幕白", "星环紫", "天际蓝", "太空灰"],
+    "service": [
+      {
+        "price": 3399,
+        "neicun": "8GB+256GB变焦版"
+      }
+    ],
+    "list_tit": "Redmi K30 Pro",
+    "list_neicun": "8GB+256GB",
+    "list_color": "月幕白",
+    "list_pri": 2999,
+    "allcount": 2999
+  },
+  {
+    "id": 7,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494025.96411491.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581493999.49592807.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494007.95093061.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494035.87983360.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581494016.59194995.jpg"
+    ],
+    "title": "小米10",
+    "font": "「碎屏保、延保限时五折特惠！最高享24期免息，低至159元起/期；可使用北京消费券」",
+    "desc": "骁龙865处理器 / 1亿像素8K电影相机 / 双模5G / 新一代LPDDR5内存 / 对称式立体声 / 90Hz刷新率+180Hz采样率 / UFS 3.0高速存储 / 全面适配Wi-Fi 6 / 超强VC液冷散热 / 30W极速闪充+30W无线闪充+10W无线反充 / 4780mAh大电量 / 多功能NFC",
+    "price": 3799,
+    "oldprice": "3999元",
+    "color": ["国风雅灰", "钛银黑", "冰海蓝", "蜜桃金"],
+    "service": [
+      {
+        "price": 3799,
+        "neicun": "8GB+128GB"
+      },
+      {
+        "price": 3999,
+        "neicun": "8GB+256GB"
+      },
+      {
+        "price": 4399,
+        "neicun": "12GB+256GB"
+      }
+    ],
+    "list_tit": "小米10",
+    "list_neicun": "8GB+128GB",
+    "list_color": "国风雅灰",
+    "list_pri": 3799,
+    "allcount": 3799
+  },
+  {
+    "id": 8,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581493365.27036533.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581493329.10251213.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581493337.56513921.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581493347.45562393.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1581493356.23386064.jpg"
+    ],
+    "title": "小米10 Pro",
+    "font": "「碎屏保、延保限时五折特惠！可使用北京消费券；最高享24期免息」",
+    "desc": "向往的生活同款 / 骁龙865处理器 / 1亿像素8K电影相机，50倍数字变焦，10倍混合光学变焦 / 双模5G / 新一代LPDDR5内存 / 50W极速闪充+30W无线闪充+10W无线反充 / 对称式立体声 / 90Hz刷新率+180Hz采样率 / UFS 3.0高速存储 / 全面适配WiFi 6 / 超强VC液冷散热  / 4500mAh大电量 / 多功能NFC",
+    "price": 4999,
+    "color": ["星空蓝", "珍珠白"],
+    "service": [
+      {
+        "price": 4999,
+        "neicun": "8GB+256GB"
+      },
+      {
+        "price": 5499,
+        "neicun": "12GB+256GB"
+      },
+      {
+        "price": 5999,
+        "neicun": "12GB+256GB"
+      }
+    ],
+    "list_tit": "小米10 Pro",
+    "list_neicun": "8GB+256GB",
+    "list_color": "星空蓝",
+    "list_pri": 5499,
+    "allcount": 5499
+  },
+  {
+    "id": 9,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590373498.2746589.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590373498.27778397.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590373498.40938776.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590373498.27327357.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590373498.27881682.jpg"
+    ],
+    "title": " Redmi 10X Pro 5G 8GB+128GB",
+    "font": "「8GB+128GB低至2099元，赠送一年碎屏保，享6期分期免息，+1元得50G云空间月卡，享云空间200G年卡半价」",
+    "desc": "双5G待机/天玑820处理器/4800万流光相机+800万超广角/6.57\"三星AMOLED屏幕/屏幕指纹/4520mAh长续航/红外遥控",
+    "price": 2099,
+    "oldprice": "2999元",
+    "color": ["深海蓝", "凝夜紫", "胧月金", "星露白"],
+    "service": [
+      {
+        "price": 2099,
+        "neicun": "128GB"
+      }
+    ],
+    "list_tit": "Redmi 10X Pro 5G 8GB+128GB",
+    "list_neicun": "128GB",
+    "list_color": "深海蓝",
+    "list_pri": 2099,
+    "allcount": 2099
+  },
+  {
+    "id": 10,
+    "imgs": [
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372843.12963476.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372843.12185799.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372843.18969139.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372843.12874672.jpg",
+      "https://cdn.cnbj0.fds.api.mi-img.com/b2c-shopapi-pms/pms_1590372843.11644342.jpg"
+    ],
+    "title": "Redmi 10X 5G 6GB+128GB",
+    "font": "「6GB+128GB直降200元，到手仅需1599元！买赠99元Airdots 2蓝牙耳机，赠送一年碎屏保，+1元得50GB云空间月卡」",
+    "desc": "双5G待机 /天玑820处理器 /4800万流光相机+800万超广角 /6.57\"三星AMOLED屏幕 /屏幕指纹 /4520mAh长续航 /红外遥控",
+    "price": 1599,
+    "oldprice": "1799元",
+    "color": ["深海蓝", "凝夜紫", "胧月金", "星露白"],
+    "service": [
+      {
+        "price": 2099,
+        "neicun": "128GB"
+      }
+    ],
+    "list_tit": "Redmi 10X Pro 5G 6GB+128GB",
+    "list_neicun": "128GB",
+    "list_color": "深海蓝",
+    "list_pri": 1599,
+    "allcount": 1599
+  }
+]

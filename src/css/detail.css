@@ -1,0 +1,540 @@
+@charset "UTF-8";
+/*
+  小米首页的最顶部
+*/
+.wrap {
+  background: #000;
+}
+
+.wrap .wrap_toolbar {
+  width: 770px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.wrap .wrap_toolbar a {
+  display: inline-block;
+  color: #ccc;
+  height: 40px;
+  line-height: 40px;
+  position: relative;
+}
+
+.wrap .wrap_toolbar a:hover {
+  color: #fff;
+}
+
+.wrap .wrap_toolbar a .code {
+  z-index: 999;
+  position: absolute;
+  top: 41px;
+  left: -60px;
+  width: 155px;
+  height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+  background: #fff;
+  text-align: center;
+  box-shadow: 0px 0px 4px #999;
+}
+
+.wrap .wrap_toolbar a .code img {
+  width: 106px;
+  height: 106px;
+  margin-top: 30px;
+}
+
+.wrap .wrap_toolbar a .code p {
+  line-height: 52px;
+  height: 52px;
+  color: #999;
+  font-size: 20px;
+}
+
+.wrap .wrap_toolbar a:hover .code {
+  color: #fff;
+  height: 185px;
+}
+
+.wrap .wrap_toolbar a:hover::before {
+  display: block;
+}
+
+.wrap .wrap_toolbar .lowdown::before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-width: 0 8px 8px;
+  border-style: solid;
+  border-color: transparent transparent #fff;
+  /*透明 透明  灰*/
+  margin: 40px auto;
+  position: absolute;
+  top: -8px;
+  left: 15px;
+  display: none;
+}
+
+.wrap .wrap_toolbar span {
+  margin: 0 4px;
+}
+
+.wrap .shopping {
+  background: #888;
+  width: 120px;
+  font-size: 12px;
+  color: #ccc;
+  text-align: center;
+  position: relative;
+}
+
+.wrap .shopping a {
+  display: inline-block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  color: #ccc;
+}
+
+.wrap .shopping a:hover {
+  background: #fff;
+  color: orangered;
+}
+
+.wrap .shopping .tips {
+  text-align: center;
+  line-height: 100px;
+  position: absolute;
+  width: 300px;
+  height: 0;
+  overflow: hidden;
+  right: 0;
+  top: 40px;
+  transition: 0.5s;
+  z-index: 1;
+  background: #fff;
+  box-shadow: 0 0 5px #ccc;
+  color: #888;
+}
+
+.wrap .shopping:hover .tips {
+  height: 100px;
+}
+
+.wrap .jump {
+  color: #ccc;
+  font-size: 12px;
+  text-align: center;
+  margin-right: 30px;
+}
+
+.wrap .jump a {
+  color: #ccc;
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 5px;
+}
+
+.wrap .jump a:hover {
+  color: #fff;
+}
+
+.wrap .jump span {
+  margin: 0 5px;
+}
+
+.main_tab {
+  margin-top: 23px;
+}
+
+.main_tab .logo {
+  width: 54px;
+  height: 54px;
+  background: orangered;
+  text-align: center;
+  margin-right: 100px;
+  position: relative;
+  transition: .3s;
+}
+
+.main_tab .logo::after {
+  content: url("../images/mi-logo.png");
+  position: absolute;
+  top: 2px;
+  left: 5px;
+  transition: .1s;
+}
+
+.main_tab .logo::before {
+  content: url("../images/home.png");
+  position: absolute;
+  left: -50px;
+  transition: .1s;
+}
+
+.main_tab .logo:hover::after {
+  transform: translate(40px);
+}
+
+.main_tab .logo:hover::before {
+  transform: translate(50px);
+}
+
+.main_tab .main_nav {
+  font-size: 14px;
+  line-height: 14px;
+  padding-top: 10px;
+}
+
+.main_tab .main_nav a,
+.main_tab .main_nav span {
+  padding: 0 10px;
+  display: inline-block;
+  height: 67px;
+  line-height: 34px;
+}
+
+.main_tab .main_nav a:hover,
+.main_tab .main_nav span:hover {
+  color: orangered;
+}
+
+.main_tab .find {
+  width: 296px;
+  font-size: 0;
+}
+
+.main_tab .find .search {
+  vertical-align: middle;
+  width: 242px;
+  height: 54px;
+  border: 1px solid #999;
+  text-indent: 12px;
+}
+
+.main_tab .find .sub_btn {
+  vertical-align: middle;
+  width: 53px;
+  border: 1px solid #999;
+  height: 54px;
+  border-left: 0;
+}
+
+/*显示隐藏部分*/
+.box {
+  width: 100%;
+  height: 230px;
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 140px;
+  z-index: 999;
+  border-top: 1px solid #999;
+}
+
+.box li {
+  width: 204px;
+  height: 171px;
+  text-align: center;
+  padding-top: 30px;
+  color: #888;
+  position: relative;
+  float: left;
+}
+
+.box li h4 {
+  font-size: 12px;
+}
+
+.box li::before {
+  content: "";
+  width: 1px;
+  height: 100px;
+  background: #666;
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+
+.box li div {
+  width: 160px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.box li div img {
+  width: 100%;
+  height: 100%;
+}
+
+.box li .box_tit {
+  margin-top: 20px;
+}
+
+.box li .price {
+  margin-top: 6px;
+  font-size: 12px;
+  color: red;
+}
+
+.box li:last-child::before {
+  content: "";
+  display: none;
+}
+
+.nav_bar {
+  height: 62px;
+  line-height: 62px;
+  color: #616161;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+  border-top: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 999;
+}
+
+.nav_bar span {
+  margin: 0 5px;
+}
+
+.nav_bar a {
+  color: #616161;
+}
+
+.nav_bar a:hover {
+  color: orangered;
+}
+
+.nav_bar .con_tit {
+  font-size: 18px;
+  font-weight: normal;
+  margin-right: 5px;
+}
+
+.nav_bar .con_left {
+  font-size: 12px;
+}
+
+.nav_bar .con_right {
+  font-size: 14px;
+}
+
+.tips {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #f7f7f7;
+}
+
+.tips span {
+  margin-right: 20px;
+}
+
+.tips .now {
+  color: orangered;
+  margin-right: 8px;
+}
+
+.tips .del {
+  color: #ccc;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.commodity_l {
+  width: 560px;
+  height: 560px;
+  padding: 40px 0;
+}
+
+.commodity_l img {
+  width: 560px;
+  height: 560px;
+}
+
+.commodity_l .arror {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.commodity_l .my-bullet {
+  display: inline-block;
+  margin: 0 3px;
+  width: 50px;
+  height: 3px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.commodity_l .my-bullet:hover {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.commodity_l .active {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.commodity_r {
+  width: 592px;
+  margin-left: 74px;
+}
+
+.commodity_r .tit {
+  height: 72px;
+  line-height: 104px;
+  font-size: 24px;
+  color: #212121;
+  font-weight: normal;
+  margin-bottom: 10px;
+}
+
+.commodity_r .desc {
+  font-size: 14px;
+  line-height: 20px;
+  color: #ccc;
+}
+
+.commodity_r .desc font {
+  color: #ff4a00;
+}
+
+.commodity_r .company_info {
+  color: #ff4a00;
+  line-height: 40px;
+  font-size: 14px;
+}
+
+.commodity_r .price_info {
+  height: 20px;
+  font-size: 18px;
+  color: #ff4a00;
+}
+
+.commodity_r .price_info .oldprice {
+  color: rgba(0, 0, 0, 0.5);
+  text-decoration: line-through;
+  margin-left: 5px;
+}
+
+.commodity_r .line {
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+  margin-top: 20px;
+}
+
+.commodity_r .subscribe_info {
+  margin: 15px 0 20px;
+  line-height: 52px;
+  color: #fff;
+  background: linear-gradient(to right, #ff8153 0%, red 100%);
+}
+
+.commodity_r .subscribe_info .subscribe_l {
+  width: 416px;
+  height: 52px;
+}
+
+.commodity_r .subscribe_info .subscribe_l .name {
+  margin: 0 10px;
+}
+
+.commodity_r .subscribe_info .subscribe_l .price {
+  font-size: 20px;
+}
+
+.commodity_r .subscribe_info .subscribe_l .price .sign {
+  font-size: 14px;
+}
+
+.commodity_r .subscribe_info .subscribe_r {
+  width: 176x;
+  height: 52px;
+  font-size: 12px;
+}
+
+.commodity_r .subscribe_info .subscribe_r .days {
+  margin: 0 3px;
+}
+
+.commodity_r .subscribe_info .subscribe_r .hours,
+.commodity_r .subscribe_info .subscribe_r .minutes,
+.commodity_r .subscribe_info .subscribe_r .seconds {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  font-size: 12px;
+  vertical-align: middle;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.commodity_r .choice .color {
+  height: 30px;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.commodity_r .all {
+  float: left;
+  margin: 0 12px 10px 0;
+}
+
+.commodity_r .all a {
+  display: block;
+  width: 288px;
+  height: 40px;
+  text-align: center;
+  line-height: 42px;
+  font-size: 18px;
+  color: #999;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.commodity_r .all a:hover {
+  border-color: orangered;
+  color: orangered;
+}
+
+.commodity_r .all .active {
+  border-color: orangered;
+  color: orangered;
+}
+
+.commodity_r .all:nth-child(2n) {
+  margin-right: 0;
+}
+
+.commodity_r .edition .edition_tit {
+  height: 50px;
+  line-height: 50px;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.commodity_r .list {
+  padding: 30px;
+  background: rgba(0, 0, 0, 0.2);
+  margin: 20px 0;
+  color: #757575;
+}
+
+.commodity_r .list .total_price {
+  margin-top: 40px;
+  color: orangered;
+  font-size: 18px;
+}
+
+.commodity_r .addCar, .commodity_r .last {
+  width: 280px;
+  height: 54px;
+  display: inline-block;
+  background: orangered;
+  color: #fff;
+  font-size: 16px;
+  line-height: 54px;
+  text-align: center;
+}
+
+.commodity_r .last {
+  margin-left: 25px;
+}

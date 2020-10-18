@@ -1,0 +1,226 @@
+[
+  {
+    "id":1,
+    "line": 1,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/40921d66d65484bc7e54187fbbe1615a.jpg?w=1708&h=868",
+    "title":"Redmi K30 至尊纪念版",
+    "txt":"120Hz弹出全面屏，天玑1000+旗舰处理器,索尼6400万四摄",
+    "yuan": "元 起",
+    "price":"1999"
+  },
+  { 
+    "id":2,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8dfbe21ef88b8ff2e0b43cb2fb2cbb77.jpg?w=1212&h=716",
+    "title":"Redmi 9A",
+    "txt":"骁龙865 / 50倍变焦 ",
+    "yuan": "元起",
+    "price":"4999"
+  },
+  { 
+    "id":3,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3f72c30ff2570bf5226240c4109e23bd.jpg?w=1212&h=716",
+    "title":"Redmi 9",
+    "txt":"双模5G，骁龙865，弹出全面屏  ",
+    "price":"3399",
+    "yuan": "元起",
+    "oldprice":"3999元"
+  },
+  {
+    "id":4,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/b923d3280682185c0018b0f027b58b8a.jpg?w=1212&h=716",
+    "title":"Redmi 10X 4G",
+    "txt":"双模5G，骁龙865，弹出全面屏 ",
+    "price":"2999",
+    "yuan": "元起",
+    "oldprice":"3699元"
+  },
+  {
+    "id":5,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bf6244caaebbcd43b4f541fc32ff3810.jpg?w=1212&h=716",
+    "title":"Redmi K30 Pro",
+    "txt":"骁龙865/1亿像素相机 ",
+    "price":"3799",
+    "yuan": "元起",
+    "oldprice":"3699元"
+  },
+  {
+    "id":6,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/8dc70db2efd09bb00c29745aa2ab9173.jpg?w=1212&h=716",
+    "title":"Redmi K30 Pro 变焦版",
+    "txt":"6400万全场景四摄  ",
+    "price":"1099",
+    "yuan": "元",
+    "oldprice":"1399元"
+  },
+  { 
+    "id":7,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/4f3a01fbab162952324826197f9ecd76.jpg",
+    "title":"小米10",
+    "txt":"5000mAh超长续航 ",
+    "price":"799",
+    "yuan": "元起"
+  },
+  {
+    "id": 8,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"小米10 Pro",
+    "txt":"5000mAh超长续航 ",
+    "price":"699",
+    "yuan": "元起",
+    "oldprice":"999元"
+  },
+  {
+    "id":9,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/3bb7adcd7516a09ff82387b5986e99c4.jpg",
+    "title":"Redmi 10X 5G",
+    "txt":"千元4800万四摄  ",
+    "price":"899",
+    "yuan": "元起",
+    "oldprice":"999元"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/83d4e418ccdea370034e82da9a22549f.jpg?w=1212&h=716",
+    "title":"Redmi 10X 5G 6GB+128GB",
+    "txt":"千元4800万四摄  ",
+    "price":"1499",
+    "yuan": "元起"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"Redmi 9A",
+    "txt":"5000mAh长循环大电量，6.53\"超大护眼屏幕 ",
+    "price":"1499",
+    "yuan": "元起"
+  },
+  {
+    "id":10,
+    "line": 1,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/40921d66d65484bc7e54187fbbe1615a.jpg?w=1708&h=868",
+    "title":"小米10",
+    "txt":"骁龙865处理器/1亿像素8K电影相机",
+    "yuan": "元 起",
+    "price":"1999",
+    "oldprice":"999元"
+  },
+  {
+    "id":10,
+    "line": 1,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/ae7416968dce19f7f8c617d776f21366.jpg?w=1708&h=868",
+    "title":"小米10 Pro",
+    "txt":"骁龙865处理器 / 50倍数字变焦",
+    "yuan": "元 起",
+    "price":"4999"
+    
+  },
+  {
+    "id":10,
+    "line": 1,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/7de213c3a4e53d4da36a210aab962e73.jpg?w=1708&h=868",
+    "title":"小米10 Pro",
+    "txt":"50倍潜望式超远变焦 / 轻薄5G手机",
+    "yuan": "元 起",
+    "price":"1899",
+    "oldprice":"2099元"
+    
+  },
+  {
+    "id":10,
+    "line": 1,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/1bac68f52a8a49b1b246455b8e7ab526.jpg?w=1708&h=868",
+    "title":"小米10 Pro",
+    "txt":"5020mAh超长续航，1080P 全高清大屏，全场景 AI 四摄",
+    "yuan": "元 起",
+    "price":"799"  
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"小米10 Pro",
+    "txt":"骁龙865 / 50倍变焦 ",
+    "yuan": "元起",
+    "price":"4999"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"Redmi K30 Pro 变焦版",
+    "txt":"双模5G，骁龙865，弹出全面屏  ",
+    "price":"3399",
+    "yuan": "元起",
+    "oldprice":"3999元"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"Redmi K30 Pro",
+    "txt":"双模5G，骁龙865，弹出全面屏 ",
+    "price":"2999",
+    "yuan": "元起",
+    "oldprice":"3699元"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"小米10",
+    "txt":"骁龙865/1亿像素相机 ",
+    "price":"3799",
+    "yuan": "元起",
+    "oldprice":"3699元"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"Redmi Note 8 Pro",
+    "txt":"6400万全场景四摄  ",
+    "price":"1099",
+    "yuan": "元",
+    "oldprice":"1399元"
+  },
+  { 
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"Redmi 8",
+    "txt":"5000mAh超长续航 ",
+    "price":"799",
+    "yuan": "元起"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"Redmi 8A",
+    "txt":"5000mAh超长续航 ",
+    "price":"699",
+    "yuan": "元起",
+    "oldprice":"999元"
+  },
+  {
+    "id":10,
+    "line": 2,
+    "img":"https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/a37032075320296b04cf89a6d259b11e.jpg?w=1212&h=716",
+    "title":"Redmi Note 8",
+    "txt":"千元4800万四摄  ",
+    "price":"899",
+    "yuan": "元起",
+    "oldprice":"999元"
+  }
+  
+]

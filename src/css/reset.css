@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+html,body,ol,ul,li,h1,h2,h3,h4,h5,h6,p,th,td,dl,dt,dd,form,figure,figcaption,fieldset,legend,input,textarea,select,option,
+label,header,main,footer,section,aside,nav,hgroup,article{
+    margin: 0;
+    padding: 0
+}
+
+img {
+    border: 0 none;
+    vertical-align: top
+}
+
+dd,
+dl,
+dt,
+li,
+ul {
+    list-style-type: none
+}
+h1,h2,h3,h4,h5,h6{font-size:16px;font-weight: normal;}
+cite,
+em,
+i {
+    font-style: normal
+}
+
+body {
+    -webkit-text-size-adjust: none;
+    font-family: "Microsoft Yahei";
+    font-size: 16px
+}
+
+a {
+    text-decoration: none;
+    color: #333
+}
+
+a:focus,
+textarea:focus {
+    outline: 0
+}
+input,fieldset{outline: none;border:0;}
+.fl{float:left;}
+.fr{float:right;}
+.container{
+  width: 1226px;
+  margin: 0 auto;
+  /* background: pink; */
+}
+
+
+button {
+    border: none;
+    background-color: #fff
+}
+.fix_clear:after{content:"";clear:both;display:block;height:0;overflow:hidden;visibility:hidden;zoom:1;}

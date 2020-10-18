@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../iconfont/iconfont.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/login.css">
+  <script src = '../js/jquery.3.5.1.js'>
+
+  </script>
+  <script src="../js/jquery.cookie.js">
+
+  </script>
+</head>
+
+<body>
+  <!-- 头部 -->
+  <div class="wrap ">
+    <div class="container fix_clear">
+      <h1 class="logo fl">
+        <!-- <img src="../images/mi-logo.png" alt=""> -->
+      </h1>
+      <div class="titl fl">
+        <h3>小米商城</h3>
+        <p>束带结发三级导航</p>
+      </div>
+    </div>
+  </div>
+  <!-- banner -->
+  <div class="banner">
+    <img src="../images/banner1.png" alt="">
+    <div class="btns">
+      <div class="tab">
+        <a href="javascript:;" class="account_btn tab_ac">账号登录</a>
+        <span>|</span>
+        <a href="javascript:;" class="sccn_btn">扫码登录</a>
+      </div>
+      <div class="transform_cont">
+        <div class="account_text">
+          <input type="text" placeholder="手机受损较大华发商都" id="telNum" name="telNum">
+          <input type="password" placeholder="密码" class="pwd" name="pwd">
+          <button class="login" id="login"> 登录</button>
+          <div class="msg">
+            <a href="">抠脚大汉分开的</a>
+          </div>
+          <div class="links_area">
+            <a href="">立即注册</a>
+            <span>|</span>
+            <a href="">忘记密码</a>
+          </div>
+          <div class="links_login">
+            <i class="iconfont icon-gongzhonghao"></i>
+            <i class="iconfont icon-gongzhonghao"></i>
+            <i class="iconfont icon-gongzhonghao"></i>
+            <i class="iconfont icon-gongzhonghao"></i>
+          </div>
+        </div>
+        <div class="sccn_text">
+          <div>
+            <img src="../images/erweima.png" alt="">
+          </div>
+          <p>SDK福建省客户方</p>
+          <p>的空间数据库东方时空惊魂甫定束带结发</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- 底部 -->
+  <div class="bottom">
+    <div class="sub_nav">
+      <a href="">简体</a>
+      <span>|</span>
+      <a href="">简体</a>
+      <span>|</span>
+      <a href="">English</a>
+      <span>|</span>
+      <a href="">常见问题</a>
+      <span>|</span>
+      <a href="">触手可得</a>
+    </div>
+    <p class="text">
+      数控刀具费事距冯老师杰弗里斯杰弗里斯加法老师讲的
+    </p>
+
+  </div>
+  <script>
+    //logo切换跳转页面
+    $('.logo').click(function () {
+      location.href = "./index.html"
+    })
+
+    
+    $('.pwd').keyup(function(e){
+      if(e.keyCode === 13){
+        login();
+      }
+    })
+    //点击登录
+    $('#login').click(login);
+    function login(){
+      let $telNum = $('#telNum').val();
+      let $pwd = $('.pwd').val();
+      $.post('../../api/login.php',{user:$telNum,pwd:$pwd},function(data){
+        if(data.err === 0){
+          $.cookie('users',$telNum,{exprires:7,path:'/'});
+          $.cookie('pwd',$pwd,{exprires:7,path:'/'});
+          alert('登录成功。即将跳转到首页');
+          location.href='./index.html';
+        }else if(data.err === 1){//登录失败
+          alert(data.msg);
+        }
+      },'json')
+    };
+    
+  
+    // let tabs = document.querySelectorAll('.tab a');
+
+    // let content = document.querySelectorAll('.transform_cont>div');
+     
+    //定义一个变量，把初始字体高亮的状态存起来
+    // let pre = tabs[0];
+    // //定义一个变量，把初始内容显示的状态存起来
+    // let curr = content[0];
+    // //遍历tabs
+    // tabs.forEach(function(item,i){
+    //   //给tabs这个伪数组的元素绑定点击事件
+    //   item.onclick = function (){
+    //     if (pre === this) return
+    //     //点击到的这个元素添加类名
+    //    this.classList.add('tab_ac');
+    //     //把初始字体高亮的状态移除类名
+    //    pre.classList.remove('tab_ac');
+    //    //修改初始变量的值（把当前点击的状态赋值给初始变量）
+    //    pre = this;
+      
+    //   content[i].style.display = 'block';
+    //   curr.style.display = 'none';
+    //   curr = content[i];
+
+    //   }
+    // })
+    
+    
+    $('.tab a').click(function(){
+      // 寻找当前元素(this)在该元素的父元素中的索引
+      // let index = $(this).index();
+      // if(index === 2) index = 1;
+
+      // 表示在 $('.tab a') 这些元素中 (this)元素的索引
+      // let index = $('.tab a').index(this);
+      // console.log(index)
+
+      $(this)
+      .addClass('tab_ac') // 给点击到的元素添加类名
+      .siblings('a') // 查找到点击到的元素的a标签的兄弟元素
+      .removeClass('tab_ac'); // 移除类名
+      $('.transform_cont>div') // 找到父容器下的两个div子元素
+      .eq($('.tab a').index(this)) // 在 $('.tab a') 这些元素中 (this)元素的索引
+      .css('display', 'block') //设置样式显示
+      .siblings()   //给点击到显示样式的div的兄弟元素的样式设置为隐藏
+      .css('display', 'none')
+    })
+  </script>
+</body>
+
+</html>

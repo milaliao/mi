@@ -1,0 +1,482 @@
+/*
+  小米首页的最顶部
+*/
+.wrap {
+  background: #000;
+  .wrap_toolbar {
+    width: 770px;
+    font-size: 12px;
+    color: #ccc;
+    a {
+      display: inline-block;
+      color: #ccc;
+      height: 40px;
+      line-height: 40px;
+      position: relative;
+      &:hover {
+        color: #fff;
+      }
+      .code {
+        // display: none;
+        z-index: 999;
+        position: absolute;
+        top: 41px;
+        left: -60px;
+        width: 155px;
+        height: 0;
+        overflow: hidden;
+        // height: 185px;
+        // padding-top: 30px;
+        transition: 0.3s;
+        background: #fff;
+        text-align: center;
+        box-shadow: 0px 0px 4px #999;
+
+        img {
+          width: 106px;
+          height: 106px;
+          margin-top: 30px;
+        }
+        p {
+          line-height: 52px;
+          height: 52px;
+          color: #999;
+          font-size: 20px;
+        }
+      }
+      &:hover .code {
+        color: #fff;
+        height: 185px;
+        // display: block;
+      }
+      &:hover::before {
+        display: block;
+      }
+    }
+    .lowdown {
+      &::before {
+        content: "";
+        width: 0;
+        height: 0;
+        border-width: 0 8px 8px;
+        border-style: solid;
+        border-color: transparent transparent #fff; /*透明 透明  灰*/
+        margin: 40px auto;
+        position: absolute;
+        // top: -49px;
+        // left: 70px;
+        top: -8px;
+        left: 15px;
+        display: none;
+      }
+    }
+    span {
+      margin: 0 4px;
+    }
+  }
+  .shopping {
+    background: #888;
+    width: 120px;
+    font-size: 12px;
+    color: #ccc;
+    text-align: center;
+    position: relative;
+    a {
+      display: inline-block;
+      width: 100%;
+      height: 40px;
+      line-height: 40px;
+      color: #ccc;
+      &:hover {
+        background: #fff;
+        color: orangered;
+      }
+    }
+    .tips {
+      text-align: center;
+      line-height: 100px;
+      position: absolute;
+      width: 300px;
+      height: 0;
+      overflow: hidden;
+      right: 0;
+      top: 40px;
+      transition: 0.5s;
+      z-index: 1;
+      background: #fff;
+      box-shadow: 0 0 5px #ccc;
+
+      color: #888;
+      // display: none;
+    }
+    &:hover .tips {
+      height: 100px;
+    }
+  }
+  .jump {
+    color: #ccc;
+    font-size: 12px;
+    text-align: center;
+    margin-right: 30px;
+    a {
+      color: #ccc;
+      display: inline-block;
+      height: 40px;
+      line-height: 40px;
+      padding: 0 5px;
+      &:hover {
+        color: #fff;
+      }
+    }
+    span {
+      margin: 0 5px;
+    }
+  }
+}
+// 小米导航条部分
+.main_tab {
+  margin-top: 23px;
+  .logo {
+    width: 54px;
+    height: 54px;
+    background: orangered;
+    text-align: center;
+    margin-right: 100px;
+    position: relative;
+    transition: .3s;
+    &::after{
+      content: url('../images/mi-logo.png');
+      position: absolute;
+      top: 2px;
+      left: 5px;
+      transition: .1s;
+    
+    }
+    &::before{
+      content: url('../images/home.png');
+      position: absolute;
+      left: -50px;
+      transition: .1s;
+     
+    }
+   &:hover::after{
+    transform: translate(40px);
+   }
+   &:hover::before{
+    transform: translate(50px);
+   }
+  }
+  .main_nav {
+    font-size: 14px;
+    line-height: 14px;
+    padding-top: 10px;
+    a,
+    span {
+      padding: 0 10px;
+      display: inline-block;
+      height: 67px;
+      line-height: 34px;
+      &:hover {
+        color: orangered;
+      }
+    }
+  }
+  .find {
+    width: 296px;
+    font-size: 0;
+    .search {
+      vertical-align: middle;
+      width: 242px;
+      height: 54px;
+      border: 1px solid #999;
+      text-indent: 12px;
+    }
+    .sub_btn {
+      vertical-align: middle;
+      width: 53px;
+      border: 1px solid #999;
+      height: 54px;
+      border-left: 0;
+    }
+  }
+}
+/*显示隐藏部分*/
+.box {
+  width: 100%;
+  height: 230px;
+  display: none;
+  background: #fff;
+  position: absolute;
+  top: 140px;
+  z-index: 999;
+  border-top: 1px solid #999;
+  li {
+    width: 204px;
+    height: 171px;
+    text-align: center;
+    // background: pink;
+    padding-top: 30px;
+    color: #888;
+    position: relative;
+    float: left;
+    h4 {
+      font-size: 12px;
+    }
+    &::before {
+      content: "";
+      width: 1px;
+      height: 100px;
+      background: #666;
+      position: absolute;
+      top: 35px;
+      right: 0;
+    }
+    div {
+      width: 160px;
+      height: 110px;
+      margin: 0 auto;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .box_tit {
+      margin-top: 20px;
+    }
+    .price {
+      margin-top: 6px;
+      font-size: 12px;
+      color: red;
+    }
+  }
+  li:last-child::before {
+    content: "";
+    display: none;
+  }
+}
+// 吸顶导航条部分
+.nav_bar {
+  height: 62px;
+  line-height: 62px;
+  color: #616161;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.07);
+  border-top: 1px solid #ccc;
+  position: sticky;
+  top: 0;
+  background: #fff;
+  z-index: 999;
+  span {
+    margin: 0 5px;
+  }
+
+  a {
+    color: #616161;
+    &:hover {
+      color: orangered;
+    }
+  }
+  .con_tit {
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 5px;
+  }
+  .con_left {
+    font-size: 12px;
+  }
+  .con_right {
+    font-size: 14px;
+  }
+}
+// 提示信息
+.tips {
+  height: 48px;
+  line-height: 48px;
+  text-align: center;
+  background: #f7f7f7;
+  span {
+    margin-right: 20px;
+  }
+  .now {
+    color: orangered;
+    margin-right: 8px;
+  }
+  .del {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
+
+// 商品详情信息 轮播图部分
+.commodity_l {
+  width: 560px;
+  height: 560px;
+  padding: 40px 0;
+  img {
+    width: 560px;
+    height: 560px;
+  }
+  .arror {
+    color: rgba(0, 0, 0, 0.2);
+  }
+  .my-bullet {
+    display: inline-block;
+    margin: 0 3px;
+    width: 50px;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.2);
+    &:hover {
+      background: rgba(0, 0, 0, 0.5);
+    }
+  }
+  .active {
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+// 右侧商品信息部分
+.commodity_r {
+  width: 592px;
+  margin-left: 74px;
+  .tit {
+    height: 72px;
+    line-height: 104px;
+    font-size: 24px;
+    color: #212121;
+    font-weight: normal;
+    margin-bottom: 10px;
+  }
+  .desc {
+    font-size: 14px;
+    line-height: 20px;
+    color: #ccc;
+   
+    font {
+      color: rgb(255, 74, 0);
+    }
+  }
+  .company_info {
+    color: rgb(255, 74, 0);
+    line-height: 40px;
+    font-size: 14px;
+  }
+  .price_info {
+    height: 20px;
+    font-size: 18px;
+    color: rgb(255, 74, 0);
+
+    .oldprice{
+      color:rgba(0, 0, 0, 0.5);
+      text-decoration: line-through;
+      margin-left: 5px;
+    }
+  }
+  .line {
+    height: 1px;
+    background: rgba(0, 0, 0, 0.2);
+    margin-top: 20px;
+  }
+  .subscribe_info {
+    margin: 15px 0 20px;
+    line-height: 52px;
+    color: #fff;
+    background: linear-gradient(to right, #ff8153 0%, red 100%);
+    .subscribe_l {
+      width: 416px;
+      height: 52px;
+      .name {
+        margin: 0 10px;
+      }
+      .price {
+        font-size: 20px;
+        .sign {
+          font-size: 14px;
+        }
+      }
+    }
+    .subscribe_r {
+      width: 176x;
+      height: 52px;
+      font-size: 12px;
+      .days {
+        margin: 0 3px;
+      }
+      .hours,
+      .minutes,
+      .seconds {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        line-height: 16px;
+        font-size: 12px;
+        vertical-align: middle;
+        background: rgba(0, 0, 0, 0.3);
+      }
+    }
+  }
+  .choice {
+    .color {
+      height: 30px;
+      font-size: 16px;
+      line-height: 16px;
+    }
+  }
+  .all {
+    float: left;
+    margin: 0 12px 10px 0;
+    a {
+      display: block;
+      width: 288px;
+      height: 40px;
+      text-align: center;
+      line-height: 42px;
+      font-size: 18px;
+      color: #999;
+      border: 1px solid rgba(0, 0, 0, 0.3);
+      &:hover {
+        border-color: orangered;
+        color: orangered;
+      }
+    }
+    .active {
+      border-color: orangered;
+      color: orangered;
+    }
+    &:nth-child(2n) {
+      margin-right: 0;
+    }
+  }
+  .edition{
+    .edition_tit{
+      height: 50px;
+      line-height: 50px;
+      font-size: 16px;
+      font-weight: normal;
+
+    }
+  }
+  .list{
+    padding:30px;
+    background: rgba(0, 0, 0, 0.2);
+    margin: 20px 0;
+    color:#757575;
+    .total_price{
+      margin-top: 40px;
+      color:orangered;
+      font-size: 18px;
+    }
+  }
+  .addCar,.last{
+    width: 280px;
+    height: 54px;
+    display: inline-block;
+    background:orangered;
+    color:#fff;
+    font-size: 16px;
+    line-height: 54px;
+    text-align: center;
+    
+  }
+  .last{
+    margin-left: 25px;
+  }
+}
